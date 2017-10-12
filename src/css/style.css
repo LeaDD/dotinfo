@@ -12,11 +12,19 @@ img, embed, object, video {
 }
 
 body {
+    /*bacground: #fff;*/
     background-image: url('../img/neutral-tile.jpg');
+    font-family: 'Risque', cursive;
 }
 
 header {
+    height: 10vh;
     text-align: center;
+    background: #000;
+    background: -webkit-linear-gradient( #000,#fff);
+    background: -o-linear-gradient( #000,#fff);
+    background: -moz-linear-gradient( #000,#fff);
+    background: linear-gradient(to top, #000,#fff);
 }
 
 hr {
