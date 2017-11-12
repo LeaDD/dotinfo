@@ -16,14 +16,17 @@
 
 .social-icons {
     padding: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .social-icons li {
     display: inline-block;
-    color:#3B5998;
-    margin-right:3%;
+    color:  #663399;
+    margin-right:2%;
     font-size:2.0em;
-    margin-top:10px;
+/*    margin-top:10px;*/
     font-weight:bold;
     /*position:relative;*/
     /*line-height:1.5em;*/
@@ -35,19 +38,34 @@ img, embed, object, video {
 }
 
 body {
+    /*background: #C0C0C0;*/
+    color:  #663399;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px #87CEEB;
+    /*text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;*/
     /*bacground: #fff;*/
-    /*background-image: url('../img/neutral-tile.jpg');*/
+    background-image: url('../img/argyle.jpg');
     font-family: 'Risque', cursive;
 }
 
 header {
-    height: 10vh;
+    height: 7vh;
     text-align: right;
-    /*background: #000;
+    /*background: ##D84B2D;
     background: -webkit-linear-gradient( #000,#fff);
     background: -o-linear-gradient( #000,#fff);
     background: -moz-linear-gradient( #000,#fff);
     background: linear-gradient(to top, #000,#fff);*/
+}
+
+#main {
+    text-align: center;
+    /*margin: auto;*/
+}
+
+#hero-image {
+    border-radius: 50%;
+    height: 225px;
+    width: 225px;
 }
 
 hr {
