@@ -26,9 +26,7 @@
     color:  #663399;
     margin-right:2%;
     font-size:2.0em;
-/*    margin-top:10px;*/
     font-weight:bold;
-    /*position:relative;*/
     /*line-height:1.5em;*/
     /*left:2%;*/
 }
@@ -38,12 +36,9 @@ img, embed, object, video {
 }
 
 body {
-    /*background: #C0C0C0;*/
     color:  #663399;
-    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px #87CEEB;
-    /*text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;*/
-    /*bacground: #fff;*/
-    background-image: url('../img/argyle.jpg');
+    text-shadow: -1px 0 #87CEEB, 0 1px #87CEEB, 1px 0 #87CEEB, 0 -1px #87CEEB;
+    background-image: url('../img/black-links.jpg');
     font-family: 'Risque', cursive;
 }
 
