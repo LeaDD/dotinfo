@@ -35,6 +35,10 @@ img, embed, object, video {
     max-width: 100%;
 }
 
+#bio {
+    text-align: center;
+}
+
 body {
     color:  #663399;
     text-shadow: -1px 0 #87CEEB, 0 1px #87CEEB, 1px 0 #87CEEB, 0 -1px #87CEEB;
@@ -45,8 +49,11 @@ body {
 header {
     height: 7vh;
     text-align: right;
-    /*background: ##D84B2D;
-    background: -webkit-linear-gradient( #000,#fff);
+    background-color: #D84B2D;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+/*    background: -webkit-linear-gradient( #000,#fff);
     background: -o-linear-gradient( #000,#fff);
     background: -moz-linear-gradient( #000,#fff);
     background: linear-gradient(to top, #000,#fff);*/
