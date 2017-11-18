@@ -39,6 +39,14 @@ module.exports = function(grunt) {
                     'dist/css/style.css': 'src/css/style.css'
                 }
             }
+        },
+        copy: {
+            main: {
+                expand: true,
+                cwd: 'src',
+                src: 'img/*',
+                dest: 'dist/'
+            }
         }
     });
 
@@ -46,6 +54,7 @@ module.exports = function(grunt) {
         ['jshint',
         'uglify',
         'htmlmin',
-        'cssmin'
+        'cssmin',
+        'copy'
         ]);
 };
