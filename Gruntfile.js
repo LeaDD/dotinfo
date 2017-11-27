@@ -40,6 +40,7 @@ module.exports = function(grunt) {
                 }
             }
         },
+        //Copy images from src to dist
         copy: {
             main: {
                 expand: true,

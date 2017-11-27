@@ -16,7 +16,7 @@
 }
 
 body {
-    color: white;
+    color: #87CEEB;
     background-image: url('../img/black-links.jpg');
     font-family: 'Risque', cursive;
 }
@@ -31,9 +31,9 @@ hr {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-h1, h2, #social-strip {
-    color:  #663399;
-    text-shadow: -1px 0 #87CEEB, 0 1px #87CEEB, 1px 0 #87CEEB, 0 -1px #87CEEB;
+h1, h2, h3, #social-strip {
+/*    color:  yellow;*/
+    /*text-shadow: -.5px 0 #87CEEB, 0 .5px #87CEEB, 0 0 #87CEEB, 0 0 #87CEEB;*/
 }
 
 #main {
@@ -49,7 +49,7 @@ h1, h2, #social-strip {
 
 /*HEADER*/
 header {
-    height: 7vh;
+    height: 6vh;
     text-align: right;
     background-color: #D84B2D;
     background-image: url('../img/orange-backg.jpeg');
@@ -60,7 +60,16 @@ header {
 
 /*BIO*/
 #bio {
-    text-align: center;
+    text-align: left;
+    font-size: 1.8em;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.3em;
+    font-family: 'IM Fell English', serif;
+}
+
+.biop {
+    color: white;
 }
 
 /*SOCIAL*/
@@ -73,9 +82,10 @@ header {
 
 .social-icons li {
     display: inline-block;
-    color:  #663399;
+    text-shadow: -1px 0 lightgray, 0 1px lightgray, 1px 0 lightgray, 0 -1px lightgray;
+    /*color:  yellow;*/
     margin-right:2%;
-    font-size:2.0em;
+    font-size:1.8em;
     font-weight:bold;
 }
 
