@@ -16,8 +16,10 @@ module.exports = function(grunt) {
         },
         //Minify Javascript
         uglify: {
-            dist: {
-                //placeholder
+            target: {
+                files: {
+                    'dist/js/app.min.js': ['src/js/*.js']
+                }
             }
         },
         //Minify HTML
